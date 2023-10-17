@@ -1,0 +1,141 @@
+
+1. **Greetings**:
+   - "hello Jarvis"
+   - "Jarvis"
+   - "wake up Jarvis"
+   - "you there Jarvis"
+   - "time to work Jarvis"
+   - "hey Jarvis"
+   - "ok Jarvis"
+   - "are you there"
+
+2. **Date and Time**:
+   - "date"
+   - "time"
+
+3. **Launching Applications**:
+   - "launch chrome"
+
+4. **Open Websites**:
+   - "open website_name"
+
+5. **Weather**:
+   - "weather city_name"
+
+6. **General Information**:
+   - "tell me about topic_name"
+
+7. **News**:
+   - "buzzing"
+   - "news"
+   - "headlines"
+
+8. **Google Search**:
+   - "search google for query"
+
+9. **Play Music**:
+   - "play music"
+   - "hit some music"
+
+10. **YouTube**:
+   - "youtube video_name"
+
+11. **Send Email**:
+   - "email"
+   - "send email"
+
+12. **Calculations**:
+   - "calculate expression"
+   - "what is question"
+
+13. **Calendar Events**:
+   - "what do I have"
+   - "do I have plans"
+   - "am I busy"
+
+14. **Take Notes**:
+   - "make a note"
+   - "write this down"
+   - "remember this"
+
+15. **Close Notepad**:
+   - "close the note"
+   - "close notepad"
+
+16. **Jokes**:
+   - "joke"
+
+17. **System Information**:
+   - "system"
+
+18. **Location Information**:
+   - "where is place_name"
+
+19. **IP Address**:
+   - "ip address"
+
+20. **Window Operations**:
+   - "switch the window"
+   - "switch window"
+
+21. **Current Location**:
+   - "where I am"
+   - "current location"
+   - "where am I"
+
+22. **Screenshot**:
+   - "take screenshot"
+   - "take a screenshot"
+   - "capture the screen"
+   - "show me the screenshot"
+
+23. **File Visibility**:
+   - "hide all files"
+   - "hide this folder"
+   - "visible"
+   - "make files visible"
+
+24. **Exit**:
+   - "goodbye"
+   - "offline"
+   - "bye"
+
+Please replace `website_name`, `city_name`, `topic_name`, `query`, `video_name`, `expression`, `place_name`, and `recipient_name` with your actual inputs.
+
+    ├── driver
+    ├── Jarvis              # Main folder for features 
+    │   ├── config          # Contains all secret API Keys
+    │   ├── features        # All functionalities of JARVIS 
+    │   └── utils           # GUI images
+    ├── __init__.py         # Definition of feature's functions
+    ├── gui.ui              # GUI file (in .ui format)
+    ├── main.py             # main driver program of Jarvis
+    ├── requirements.txt    # all dependencies of the program
+
+
+
+
+
+- Greet user
+- Tell current time and date
+- Launch applications/softwares 
+- Open any website
+- Tells about weather of any city
+- Open location of any place plus tells the distance between your place and queried place
+- Tells your current system status (RAM Usage, battery health, CPU usage)
+- Tells about your upcoming events (Google Calendar)
+- Tells about any person (via Wikipedia)
+- Can search anything on Google 
+- Can play any song on YouTube
+- Tells top headlines (via Times of India)
+- Plays music
+- Send email (with subject and content)
+- Calculate any mathematical expression (example: Jarvis, calculate x + 135 - 234 = 345)
+- Answer any generic question (via Wolframalpha)
+- Take important note in notepad
+- Tells a random joke
+- Tells your IP address
+- Can switch the window
+- Can take screenshot and save it with custom filename
+- Can hide all files in a folder and also make them visible again
+- Has a cool Graphical User Interface
